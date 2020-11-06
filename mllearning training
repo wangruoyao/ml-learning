@@ -1,0 +1,11 @@
+//training
+
+mlagents-learn config/rollerball_config.yaml --run-id=RollerBall
+mlagents-learn config/ppo/3DBall.yaml --run-id=first3DBallRun
+
+
+//see detail
+
+tensorboard --logdir=summaries --port=6006
+
+//
