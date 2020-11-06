@@ -8,4 +8,12 @@ mlagents-learn config/ppo/3DBall.yaml --run-id=first3DBallRun
 
 tensorboard --logdir=summaries --port=6006
 
-//
+//pacakges
+
+//You can add the local com.unity.ml-agents package (from the repository that you just cloned) to your project by:
+
+navigating to the menu Window -> Package Manager.
+In the package manager window click on the + button.
+Select Add package from disk...
+Navigate into the com.unity.ml-agents folder.
+Select the package.json file.//
